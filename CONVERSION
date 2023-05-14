@@ -1,0 +1,6 @@
+# MILES to KM Conversion
+
+miles = input('Enter a distance in miles: ')
+miles_value = float(miles)
+kilometers_value = miles_value * 1.609344
+print(str(miles_value) + " miles is equal to " +  str(kilometers_value) + " KM")
